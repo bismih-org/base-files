@@ -1,0 +1,8 @@
+/etc/debian_version
+/etc/dpkg/origins/debian
+/etc/dpkg/origins/pardus
+/etc/dpkg/origins/bismih
+/etc/host.conf
+/etc/issue
+/etc/issue.net
+/etc/update-motd.d/10-uname
