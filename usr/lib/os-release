@@ -1,8 +1,8 @@
-PRETTY_NAME="Bismih GNU/Linux 24 (fethan)"
+PRETTY_NAME="Bismih GNU/Linux 25 (fethan)"
 NAME="Bismih GNU/Linux"
-VERSION_ID="24.0"
-VERSION="24.0 (fethan)"
-VERSION_CODENAME=fethan
+VERSION_ID="25.0"
+VERSION="25.0 (fethan)"
+VERSION_CODENAME=bookworm
 ID=bismih
 HOME_URL="https://github.com/bismih-org/"
 SUPPORT_URL="https://github.com/orgs/bismih-org/discussions/"

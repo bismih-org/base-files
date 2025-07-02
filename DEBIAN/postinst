@@ -100,7 +100,7 @@ if [ "$1" = "configure" ] && [ "$2" = "" ]; then
   ensure_file_owner_mode /var/log/lastlog root:utmp 664
 fi
 
-if [ "$1" = "configure" ] && [ "$2" = "12.4+z-bismih24.0" ]; then
+if [ "$1" = "configure" ] && [ "$2" = "12.4+z-bismih25.0" ]; then
   force_install_from_default motd          /etc/motd
 fi
 

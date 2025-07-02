@@ -1,9 +1,7 @@
 #!/bin/bash
-
-rm -rf build
-mkdir build
-cp -r bin  boot  DEBIAN  dev  etc  home  LICENSE  lib  proc  root  run  sbin  sys  tmp  usr  var build/
-
-cd build
-
-dpkg-deb --build . ../base-files_12.4+z-bismih24.2.1_all.deb
+mkdir -p base-files
+cp -rf etc DEBIAN usr base-files
+cd base-files
+mkdir bin  boot  dev  etc  home  lib  proc  root  run  sbin  sys  tmp  var
+cd ..
+python3 base_file_pack_unpack.py
